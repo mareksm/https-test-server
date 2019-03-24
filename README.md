@@ -7,5 +7,4 @@ openssl req -newkey rsa:4096 -nodes -keyout key.pem -x509 -days 365 -out certifi
 
 Build the test server:
 
-cc -std=c++17 -g -o server server.cpp -DEVENT__HAVE_OPENSSL \
-    -lssl -lcrypto -levent -levent_openssl -lc++
+cc -std=c++17 -g -o server server.cpp -DEVENT__HAVE_OPENSSL -lssl -lcrypto -levent -levent_openssl -lc++
