@@ -1,3 +1,7 @@
+/* (c) 2019 Mareks Malnacs
+ * This code is licensed under MIT license (see LICENSE.md for details)
+ */
+
 #include <memory>
 #include <cstdint>
 #include <iostream>
